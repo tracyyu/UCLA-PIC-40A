@@ -1,0 +1,44 @@
+XHTML HTML5
+know structure of doc
+know how meta tags work and what they are
+
+Given screenshot of webpage and ask to write necessary xhtml
+XHTML problem its own (lengthy)
+
+may appear in short answer qusetion
+3-4 parts
+minor1-5 lines of code
+Show up in conjunction to dom/ css/js
+write xhtml and style with css
+
+assume yo uhave an image. write html snippet that places the image on your webpage and makes the image into a link. That is clicking
+on the image should send you browser to the url webpage
+
+write a css rule that changes the background color to yellow when hover over the list item
+
+js array called words has been filled. write a single line that alers some random element from the array
+alert(words[Math.floor(words.length*Math.random())]);
+
+
+CSS  
+know why it is important to separate structure from style and be anle to describe how CSS accomplishes this
+know syntax and how to apply css to an xhtml external and internal
+understand selector rules
+how basic conflict between rules are resolved
+understand inheritance
+box model
+understand big website example
+undestand css menu (Lab 3)
+do not need to memorie all css prop and their corresponding values, but should be able to know how to use a property if I give it yo you.
+ ie. write css that specifies that all <span> elements nested inside a <p> element should be bold and color blue.
+ ie. how to place an image on top of each other:  z-index, position-absolute
+ ie. as the mouse cursor is moved over the div, image2 becomes the top image
+	#image_container:hover img1{z-index:-2};
+ 
+ JavaScript
+ short answer question
+ debugging a given javascript program
+ writing a js program to solve a given problem
+ 
+ 
+ 

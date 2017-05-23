@@ -1,0 +1,207 @@
+html, body
+{
+	margin:0;
+	padding:0;
+	font-family: CourierNewPSMT, Courier, AppleGothic;
+	color:#9966CC;
+}
+
+#main
+{
+	width:800px;
+}
+
+#header_logo
+{
+	background:url(Cupcake_banner.png);
+	text-align:center;
+	height:140px;
+}
+
+#header_logo h1
+{
+	color:#FFCC99;
+	font-family:"Freestyle Script";
+	font-size:54pt;
+}
+
+#header_logo blockquote p
+{
+	font-weight:bold;
+	background-color:#FFFFFF;
+}
+
+#drop_down_menu
+{
+	border-bottom: 4px dotted #ADFF2F;
+	background-color:#FFCC99 ;
+}
+
+div.website_links
+{
+	margin-left: 50px;
+}
+
+#navbar
+{
+	margin-left:auto;
+	margin-right:auto;
+	padding:0;
+	height: 1em;
+}
+#navbar li
+{
+	list-style:none;
+	float:left;
+}	
+#navbar li a
+{
+	display:block;
+	padding: 3px 8px;
+	color:#9966CC;
+	text-decoration: none;
+}
+#navbar li ul
+{
+	display: none;
+	width: 10em;
+	margin:auto;
+	padding:0;
+	background-color: #FFFFFF;
+}
+#navbar li:hover ul
+{
+	display: block;
+	position: absolute;
+	margin: auto;
+	padding: 0;
+}
+#navbar li:hover li
+{
+	float:none;
+}
+#navbar li:hover li a
+{
+	background-color: #FFF8DC;
+	border-bottom: 1px dashed #99FFFF;
+	color: #4169E1;
+}
+#navbar li li a:hover
+{
+	background-color: #F0E68C
+}
+
+#side_bar
+{
+	float: left;
+	width: 200px;
+	background-color:#FAFAD2;
+	border-right: 2px dashed #ADFF2F;
+}
+
+#side_bar h2
+{
+	font-family:"Freestyle Script", "Segoe Script", Magneto;
+	font-size:22pt;
+	text-align: center;
+	color:#FF99CC;
+}
+
+#side_bar ul li
+{
+	list-style-type: square;
+}
+
+#side_bar ol li
+{
+	list-style-type: circle;
+}
+
+#main_content
+{
+	margin-left: 200px;
+	padding-left: 15px;
+	padding-right:15px;
+}
+
+#main_content p img
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#main_content table
+{
+	margin-left:auto;
+	margin-right:auto;
+	color:#FF99CC;
+	border-width: 3px;
+	border-style: dotted;
+	border-color:#ADFF2F;
+	background-color:#FAFAD2;
+}
+
+#main_content table tr td h3
+{
+	text-align:center;
+	color: #1E90FF;
+	font-size: 16pt;
+}
+
+#main_content table td
+{
+	border-width: 2px;
+	border-style: dotted;
+}
+
+#footer
+{
+	border-top: 4px dotted #ADFF2F;
+	font-family: AppleGothic, Helvetica, Latha;
+	clear:both;
+	text-align:center;
+}
+
+form
+{	
+	width:800px;
+	background-color:#FFFFEE;
+}
+
+legend
+{
+	color:#FFCC99;
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+table
+{
+	color:#FF99CC;
+	border-width: 3px;
+	border-style: dotted;
+	border-color:#ADFF2F;
+	background-color:#FAFAD2;
+}
+
+table tr td h4
+{
+	text-align:center;
+	color: #1E90FF;
+	font-size: 12pt;
+	margin:0;
+	padding:0;
+}
+
+table td
+{
+	border-width: 2px;
+	border-style: dotted;
+}
+
+html, head, body, header_logo h1, header_logo, drop_down_menu, main_content p, side_bar, footer 
+{
+	margin:0;
+	padding:0;
+}

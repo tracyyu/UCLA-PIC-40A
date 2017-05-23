@@ -1,0 +1,7 @@
+// need variables: num1, num2, operations
+// concatenate to num1
+// one should be a global variable --> num1
+// how to clear the calculator
+//reset num1 & num2 & operations
+// if do not hit equal but rather another operator, compute that operations with whatever is stored in num1 and num2
+

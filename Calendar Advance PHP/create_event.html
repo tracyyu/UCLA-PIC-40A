@@ -1,0 +1,54 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+ "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<link rel="stylesheet" type="text/css" href="create_event.css" />
+
+<title>Create Event</title>
+
+</head>
+
+
+<body>
+<div class="stylized">		
+<form class="stylized" id="form1" action="update_database.php" method="post">
+<fieldset>
+	<legend>Simple Event</legend>
+
+	<label class='people'>Joe</label> <input type='radio' name='person' value='Tracy' checked='checked'/>
+	<label class='people'>Joanna</label> <input type='radio' name='person' value='David' />
+	<label class='people'>Lil Cub</label> <input type='radio' name='person' value='Joanna' />
+
+	<br/><br/>
+
+<table>
+	<tr>
+		<td>
+		<label>Date</label>
+		</td>
+		<td><input type="text" name="date" id="date" value=""/>
+		</td>
+		<td>
+		<label>Time</label></td><td><input type="text" name="time" id="time"/>
+		</td>
+	</tr>
+	<tr>
+		<td><label>Event title</label></td>
+		<td><input class="stylized" type="text" name="event_name" value=""/>
+		</td>
+		<td>
+		<label>Event message</label>
+		</td>
+		<td><input class="stylized" type="text" name="event_message" value=""/>
+		</td>
+	</tr>
+
+</table>
+		<input type="submit" value="Create event" />
+</fieldset>
+</form>
+</div>
+</body>
+</html>

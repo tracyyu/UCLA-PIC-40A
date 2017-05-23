@@ -1,0 +1,99 @@
+<?xml version = "1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+		<title> Order Form </title>
+	</head>
+	<body>
+		<form action="" method="get">
+			<fieldset>
+				<legend> Customer Information </legend>
+				<p>
+					First Name: <input type="text" name="firstname"/>
+					Last Name: <input type="text" name="lastname"/>
+					<br />
+					<br />
+					Address: <br />
+					Street: <input type="text" name="street"/> <br />
+					City: <input type="text" name="city"/> <br />
+					State: <input type="text" name="state"/> <br />
+					Zipcode: <input type="text" name="zipcode"/> <br />
+					Email Address: <input type="text" name="emailaddress" />
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend> Order Information </legend>
+						<table>
+						<tr>
+							<td> <h4> Product </h4> </td>
+							<td> <h4> Price </h4> </td>
+							<td> <h4> Quantity </h4> </td>
+						</tr>
+						<tr>
+							<td> Vanilla Mango Cupcake </td>
+							<td> $3.00 </td>
+							<td> <input type="text" name="vanillamango"/> </td>
+						</tr>
+						<tr>
+							<td> Passion Fruit Cupcake </td>
+							<td> $3.00 </td>
+							<td> <input type="text" name="passionfruit"/> </td>
+						</tr>
+						<tr>
+							<td> Dragon Fruit Cupcake </td>
+							<td> $3.00 </td>
+							<td> <input type="text" name="dragonfruit"/> </td>
+						</tr>
+						<tr>
+							<td> Green Tea Cupcake </td>
+							<td> $3.00 </td>
+							<td> <input type="text" name="greentea"/> </td>
+						</tr>
+						<tr>
+							<td> Thai Iced Tea </td>
+							<td> $3.00 </td>
+							<td> <input type="text" name="thaiicedtea"/> </td>
+						</tr>
+					</table>
+					<br />
+					<br />
+					Shipping Method: <br />
+					<input type="radio" name="shipping" value="standard" /> Standard
+					<input type="radio" name="shipping" value="twoday" /> Two Day
+					<input type="radio" name="shipping" value="oneday" /> One Day
+					<input type="radio" name="shipping" value="sameday" /> Same Day
+					<br />
+					<br />
+					Credit Card Type:
+					<select name="creditcard">
+						<option value="visa"> Visa </option>
+						<option value="mastercard"> Master Card </option>
+						<option value="americanexpress"> American Express </option>
+						<option value="discover"> Discover </option>
+					</select>
+					<br />
+					<br />
+					Credit Card: <input type="text" name="ccnumber" />
+					<br />
+					<br />
+					Would you like to receive emails about future products and promotions? 
+					<br />
+					<input type="checkbox" name="email" value="yes"/> Yes, send me emails.
+					<br />
+					<input type="checkbox" name="email" value="no"/> No, do not send me emails.
+					<br />
+			
+			</fieldset>
+			<fieldset>
+				<input type="submit" value="Send"/>
+				<input type="reset" value="Reset"/>
+			</fieldset>
+		</form>
+		<div>
+			<a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml11" alt="valid XHTML 1.1"
+			height="31" width="88" /></a>
+		</div>
+	</body>
+</html>
